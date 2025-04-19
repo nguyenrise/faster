@@ -173,7 +173,7 @@ button {
   flex-direction: column;
 }
 
-.hero-section {
+.hero {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -244,7 +244,7 @@ button {
 }
 
 @media screen and (min-width: 768px) {
-  .hero-section {
+  .hero {
     gap: 36px;
   }
 
@@ -369,7 +369,7 @@ button {
   font-size: 28px;
 }
 
-.form-section {
+.form-group {
   display: flex;
   flex-direction: column;
   gap: 12px;

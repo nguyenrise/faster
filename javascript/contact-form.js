@@ -39,7 +39,7 @@ function contactForm() {
           errorer.display(
             errorMessage,
             `${field}-${i}`,
-            input.closest(".form-section")
+            input.closest(".form-group")
           );
         });
       });
