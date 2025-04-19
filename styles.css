@@ -221,7 +221,7 @@ button {
   color: #ebebeb;
 }
 
-.collage-section {
+.collage {
   display: flex;
   flex-direction: column;
   gap: 24px;
