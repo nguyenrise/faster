@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+
+    <link rel="stylesheet" href="../styles.css" />
+    <script type="module" src="./javascript/validator.js"></script>
+    <script type="module" src="./javascript/error.js"></script>
+    <script type="module" src="./javascript/form.js"></script>
+    <script type="module" src="./javascript/contact-form.js"></script>
+  </head>
+  <body>
+    <div id="contact">
+      <header id="global-header">
+        <nav id="global-nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link home-nav-link">Faster</a>
+            </li>
+            <li class="nav-item">
+              <a href="services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link active">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <main id="contact-content" class="container">
+        <form action="/" id="contact-form">
+          <h1 class="form-heading">Contact Us</h1>
+
+          <section class="form-section">
+            <label for="name">Name</label>
+            <input class="input" title="name" id="name" type="text" />
+          </section>
+
+          <section class="form-section">
+            <label for="phone">Phone Number</label>
+            <input
+              class="input"
+              title="phone"
+              autocomplete="tel"
+              id="phone"
+              type="tel"
+            />
+          </section>
+
+          <section class="form-section">
+            <label for="email">Email</label>
+            <input
+              class="input"
+              title="email"
+              id="email"
+              autocomplete="email"
+              type="text"
+            />
+          </section>
+
+          <section class="form-section">
+            <label for="comments">Comments</label>
+            <textarea class="input" title="comments" id="comments"></textarea>
+          </section>
+
+          <section class="button-section">
+            <button class="button-ghost" type="reset">Reset</button>
+            <button class="button" type="submit">Submit</button>
+          </section>
+        </form>
+      </main>
+
+      <footer id="global-footer">
+        <nav aria-label="footer navigation" id="global-footer-nav">
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="/index.html" class="nav-link">Faster</a>
+            </li>
+            <li class="nav-item">
+              <a href="/services.html" class="nav-link">Services</a>
+            </li>
+            <li class="nav-item">
+              <a href="/contact.html" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+
+        <span class="credit"
+          >Built and designed by Rise Nguyen <br />All rights reserved ©</span
+        >
+      </footer>
+    </div>
+  </body>
+</html>
